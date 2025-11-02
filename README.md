@@ -33,9 +33,8 @@ fullpack init
 5. Best Practices Built-In: Clean folder structures and modern tooling.
 6. Open Source & Extensible: Add your favorite stacks or tools via pull requests.
 ```
----
 
-📂 Folder Structure
+## 📂 Folder Structure
 ``` bash
 FULLPACK/
 ├── adapters/
@@ -63,7 +62,7 @@ FULLPACK/
 └── cli.ts
 ```
 
-⚙️ CLI Usage Examples
+## CLI Usage Examples
 ``` bash 
 # Create a full project with Docker and PostgreSQL
 npx fullpack init --frontend nextjs --backend javascript --db postgres --docker
@@ -72,7 +71,7 @@ npx fullpack init --frontend nextjs --backend javascript --db postgres --docker
 npx fullpack init --frontend reactjs --db sqlite
 ```
 
-CLI Flags
+## CLI Flags
 ``` bash
 | Flag         | Description               | Example              |
 | ------------ | ------------------------- | -------------------- |
@@ -83,7 +82,7 @@ CLI Flags
 | `--nginx`    | Enable Nginx setup        | `--nginx`            |
 ```
 
-🧰 Local Development
+## Local Development
 
 To work on FullPack locally:
 ``` bash
@@ -103,7 +102,7 @@ npm unlink -g fullpack
 ```
 ---
 
-Philosophy:
+## Philosophy:
 “Learn by building, contribute by improving.”
 
 FullPack is not just a tool, it’s a collaborative effort to define what a clean, fast, and modern full-stack setup should look like.
@@ -111,7 +110,7 @@ We intentionally don’t include every technology. The goal is to build somethin
 
 ---
 
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome 🙌
 
@@ -128,7 +127,7 @@ If you’re passionate about improving stack automation or adding support for ne
 ```
 ---
 
-Roadmap
+## Roadmap
 ``` bash
  Backend: JavaScript, Python
  Frontend: React, Next.js
@@ -140,11 +139,11 @@ Roadmap
  GUI for configuration (future)
 ```
 
-🪄 License
+## 🪄 License
 MIT License © 2025 Atnatewos Hailealem
 
 
-💬 Community
+## 💬 Community
 Join discussions, suggest ideas, or showcase your setups in the Discussions tab!
 Let’s make full-stack development faster, cleaner, and more fun together!
 
