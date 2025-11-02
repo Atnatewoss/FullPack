@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/<your-username>/FullPack/issues)
 
-**FullPack** is an open-source project generator that lets you build a complete full-stack web app — **frontend, backend, database, and DevOps** — in **under 2 minutes**.  
+**FullPack** is an open-source project generator that lets you build a complete full-stack web app, **frontend, backend, database, and DevOps** in **under 2 minutes**.  
 It’s optimized for speed, flexibility, and modern best practices.
 
 ---
@@ -104,12 +104,11 @@ npm unlink -g fullpack
 ---
 
 Philosophy:
-``` bash
 “Learn by building, contribute by improving.”
 
 FullPack is not just a tool, it’s a collaborative effort to define what a clean, fast, and modern full-stack setup should look like.
 We intentionally don’t include every technology. The goal is to build something solid and let the community expand it.
-```
+
 ---
 
 🤝 Contributing
