@@ -30,6 +30,7 @@ fullpack init
 6. Open Source & Extensible: Add your favorite stacks or tools via pull requests.
 
 📂 Folder Structure
+``` bash
 FULLPACK/
 ├── adapters/
 │   ├── drizzle/
@@ -54,15 +55,19 @@ FULLPACK/
 │   ├── reactjs/
 │   └── README.md
 └── cli.ts
+```
 
 ⚙️ CLI Usage Examples
 # Create a full project with Docker and PostgreSQL
+``` bash 
 npx fullpack init --frontend nextjs --backend javascript --db postgres --docker
+```
 
 # Minimal setup (React + SQLite)
 npx fullpack init --frontend reactjs --db sqlite
 
 CLI Flags
+``` bash
 | Flag         | Description               | Example              |
 | ------------ | ------------------------- | -------------------- |
 | `--frontend` | Choose frontend framework | `--frontend reactjs` |
@@ -70,11 +75,12 @@ CLI Flags
 | `--db`       | Select database type      | `--db postgres`      |
 | `--docker`   | Enable Docker setup       | `--docker`           |
 | `--nginx`    | Enable Nginx setup        | `--nginx`            |
-
+```
 
 🧰 Local Development
 
 To work on FullPack locally:
+``` bash
 # Clone the repo
 git clone https://github.com/<your-username>/FullPack.git
 cd FullPack
@@ -88,15 +94,16 @@ fullpack init --frontend reactjs --db sqlite
 
 Unlink when done:
 npm unlink -g fullpack
-
+```
 ---
 
 Philosophy:
+``` bash
 “Learn by building, contribute by improving.”
 
 FullPack is not just a tool, it’s a collaborative effort to define what a clean, fast, and modern full-stack setup should look like.
 We intentionally don’t include every technology. The goal is to build something solid and let the community expand it.
-
+```
 ---
 
 🤝 Contributing
@@ -106,16 +113,18 @@ Contributions are welcome 🙌
 If you’re passionate about improving stack automation or adding support for new tech (e.g., NestJS, Redis, or FastAPI)
 . check out our Contributing Guide
 
+``` bash
 1. Fork the repo
 2. Create a new branch
     git checkout -b feature/add-nestjs
 3. Commit your changes
     git commit -m "Add NestJS support"
 4. Push and open a Pull Request 🚀
-
+```
 ---
 
 Roadmap
+``` bash
  Backend: JavaScript, Python
  Frontend: React, Next.js
  Database: MongoDB, MySQL, PostgreSQL, SQLite
@@ -124,7 +133,7 @@ Roadmap
  Add FastAPI and NestJS templates
  Integrate CI/CD with GitHub Actions
  GUI for configuration (future)
-
+```
 
 🪄 License
 MIT License © 2025 Atnatewos Hailealem
