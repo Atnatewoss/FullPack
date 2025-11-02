@@ -106,11 +106,11 @@ npm unlink -g fullpack
 
 Contributions are welcome 🙌
 
-If you’re passionate about improving stack automation or adding support for new tech (e.g., NestJS, Redis, or FastAPI)
-. check out our Contributing Guide
-
 FullPack is not just a tool, it’s a collaborative effort to define what a clean, fast, and modern full-stack setup should look like.
 We intentionally don’t include every technology. The goal is to build something solid and let the community expand it.
+
+If you’re passionate about improving stack automation or adding support for new tech (e.g., NestJS, Redis, or FastAPI)
+check out our Contributing Guide
 
 ``` bash
 1. Fork the repo
