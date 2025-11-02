@@ -24,7 +24,7 @@ npm install -g fullpack
 fullpack init
 ```
 
-✨ Features
+## ✨ Features
 ``` bash
 1. 2-Minute Setup: Spin up a complete project without leaving your editor.
 2. Modular Design: Choose only what you need — backend, frontend, database, or devops.
@@ -33,6 +33,7 @@ fullpack init
 5. Best Practices Built-In: Clean folder structures and modern tooling.
 6. Open Source & Extensible: Add your favorite stacks or tools via pull requests.
 ```
+---
 
 📂 Folder Structure
 ``` bash
@@ -148,4 +149,4 @@ MIT License © 2025 Atnatewos Hailealem
 Join discussions, suggest ideas, or showcase your setups in the Discussions tab!
 Let’s make full-stack development faster, cleaner, and more fun together!
 
-FullPack — The fastest way to launch a full-stack app from your editor, in under 2 minutes.
+FullPack: The fastest way to launch a full-stack app from your editor, in under 2 minutes.
