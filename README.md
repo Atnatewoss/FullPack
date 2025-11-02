@@ -14,20 +14,25 @@ It’s optimized for speed, flexibility, and modern best practices.
 You can use **FullPack** globally or on-demand.
 
 ### Option 1 — Run instantly with `npx` (recommended)
+``` bash
 npx fullpack init
+```
 
 Option 2 — Install globally
+``` bash
 npm install -g fullpack
 fullpack init
+```
 
 ✨ Features
-
+``` bash
 1. 2-Minute Setup: Spin up a complete project without leaving your editor.
 2. Modular Design: Choose only what you need — backend, frontend, database, or devops.
 3. Database Integration via CLI: Configure and connect databases directly from the terminal.
 4. Optional DevOps Support: Enable Docker or Nginx with simple flags (e.g., --docker, --nginx).
 5. Best Practices Built-In: Clean folder structures and modern tooling.
 6. Open Source & Extensible: Add your favorite stacks or tools via pull requests.
+```
 
 📂 Folder Structure
 ``` bash
@@ -58,13 +63,13 @@ FULLPACK/
 ```
 
 ⚙️ CLI Usage Examples
-# Create a full project with Docker and PostgreSQL
 ``` bash 
+# Create a full project with Docker and PostgreSQL
 npx fullpack init --frontend nextjs --backend javascript --db postgres --docker
-```
 
 # Minimal setup (React + SQLite)
 npx fullpack init --frontend reactjs --db sqlite
+```
 
 CLI Flags
 ``` bash
