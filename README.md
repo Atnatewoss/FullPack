@@ -24,7 +24,7 @@ npm install -g fullpack
 fullpack init
 ```
 
-## ✨ Features
+## Features
 ``` bash
 1. 2-Minute Setup: Spin up a complete project without leaving your editor.
 2. Modular Design: Choose only what you need — backend, frontend, database, or devops.
@@ -127,7 +127,7 @@ If you’re passionate about improving stack automation or adding support for ne
 ```
 ---
 
-## 🪄 License
+## License
 MIT License © 2025 Atnatewos Hailealem
 
 
