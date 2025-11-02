@@ -1,4 +1,4 @@
-# 🚀 FullPack
+# FullPack
 
 [![npm version](https://img.shields.io/npm/v/fullpack.svg)](https://www.npmjs.com/package/fullpack)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -14,7 +14,6 @@ It’s optimized for speed, flexibility, and modern best practices.
 You can use **FullPack** globally or on-demand.
 
 ### Option 1 — Run instantly with `npx` (recommended)
-```bash
 npx fullpack init
 
 Option 2 — Install globally
