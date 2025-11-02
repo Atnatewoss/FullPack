@@ -102,14 +102,6 @@ npm unlink -g fullpack
 ```
 ---
 
-## Philosophy:
-“Learn by building, contribute by improving.”
-
-FullPack is not just a tool, it’s a collaborative effort to define what a clean, fast, and modern full-stack setup should look like.
-We intentionally don’t include every technology. The goal is to build something solid and let the community expand it.
-
----
-
 ## 🤝 Contributing
 
 Contributions are welcome 🙌
@@ -125,6 +117,9 @@ If you’re passionate about improving stack automation or adding support for ne
     git commit -m "Add NestJS support"
 4. Push and open a Pull Request 🚀
 ```
+
+FullPack is not just a tool, it’s a collaborative effort to define what a clean, fast, and modern full-stack setup should look like.
+We intentionally don’t include every technology. The goal is to build something solid and let the community expand it.
 ---
 
 ## License
