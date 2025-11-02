@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/<your-username>/FullPack/issues)
 
-**FullPack** is an open-source project generator that lets you build a complete full-stack web app, **frontend, backend, database, and DevOps** in **under 2 minutes**.  
+**FullPack** is an open-source project generator that lets you build a complete full-stack web app with **frontend, backend, database, and DevOps** in **under 2 minutes**.  
 It’s optimized for speed, flexibility, and modern best practices.
 
 ---
@@ -13,12 +13,12 @@ It’s optimized for speed, flexibility, and modern best practices.
 
 You can use **FullPack** globally or on-demand.
 
-### Option 1 — Run instantly with `npx` (recommended)
+### Option 1: Run instantly with `npx` (recommended)
 ``` bash
 npx fullpack init
 ```
 
-Option 2 — Install globally
+Option 2: Install globally
 ``` bash
 npm install -g fullpack
 fullpack init
@@ -126,18 +126,6 @@ If you’re passionate about improving stack automation or adding support for ne
 4. Push and open a Pull Request 🚀
 ```
 ---
-
-## Roadmap
-``` bash
- Backend: JavaScript, Python
- Frontend: React, Next.js
- Database: MongoDB, MySQL, PostgreSQL, SQLite
- DevOps: Docker, Nginx (toggleable flags)
- Support for Bun runtime
- Add FastAPI and NestJS templates
- Integrate CI/CD with GitHub Actions
- GUI for configuration (future)
-```
 
 ## 🪄 License
 MIT License © 2025 Atnatewos Hailealem
